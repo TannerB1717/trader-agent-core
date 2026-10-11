@@ -1,5 +1,6 @@
-"""Trader Agent Core - A minimal trading system with risk management."""
+"""Trader Agent Core package exports."""
 
+from trader_agent_core.backtester import BacktestEngine, BacktestMetrics, generate_sample_history
 from trader_agent_core.broker import SimulatedBroker
 from trader_agent_core.decision import MinimalDecisionLoop
 from trader_agent_core.exits import ExitEngine
@@ -14,8 +15,9 @@ from trader_agent_core.models import (
     TradingDecision,
 )
 from trader_agent_core.risk import RiskValidator
+from trader_agent_core.signal import SignalGenerator
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     "Position",
@@ -31,4 +33,8 @@ __all__ = [
     "MinimalDecisionLoop",
     "DecisionJournal",
     "JournalEntry",
+    "SignalGenerator",
+    "BacktestEngine",
+    "BacktestMetrics",
+    "generate_sample_history",
 ]

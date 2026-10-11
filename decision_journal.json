@@ -1,0 +1,70 @@
+[
+  {
+    "timestamp": "2026-10-11T22:03:41.506846",
+    "entry_type": "fill",
+    "data": {
+      "symbol": "AAPL",
+      "side": "BUY",
+      "qty": 200.0,
+      "fill_price": 210.21,
+      "slippage": 0.21000000000000796
+    }
+  },
+  {
+    "timestamp": "2026-10-11T22:03:41.506858",
+    "entry_type": "decision",
+    "data": {
+      "symbol": "AAPL",
+      "action": "BUY",
+      "confidence": 0.75,
+      "quantity": 200.0,
+      "fill_price": 210.21,
+      "rationale": "Strong bullish momentum and technical breakout"
+    }
+  },
+  {
+    "timestamp": "2026-10-11T22:03:41.506898",
+    "entry_type": "exit_check",
+    "data": {
+      "symbol": "AAPL",
+      "price": 214.0,
+      "result": "HOLD",
+      "position_qty": 200.0,
+      "avg_price": 210.21
+    }
+  },
+  {
+    "timestamp": "2026-10-11T22:03:41.506907",
+    "entry_type": "exit_check",
+    "data": {
+      "symbol": "AAPL",
+      "price": 204.0,
+      "result": "HOLD",
+      "position_qty": 200.0,
+      "avg_price": 210.21
+    }
+  },
+  {
+    "timestamp": "2026-10-11T22:03:41.506923",
+    "entry_type": "exit",
+    "data": {
+      "symbol": "AAPL",
+      "exit_side": "SELL",
+      "exit_qty": 200.0,
+      "exit_price": 214.785,
+      "pnl_per_unit": 4.574999999999989,
+      "total_pnl": 914.9999999999977,
+      "rationale": "Take profit at resistance"
+    }
+  },
+  {
+    "timestamp": "2026-10-11T22:03:41.506947",
+    "entry_type": "decision",
+    "data": {
+      "symbol": "MSFT",
+      "action": "HOLD",
+      "confidence": 0.5,
+      "rationale": "Awaiting more data before deciding"
+    }
+  }
+]
